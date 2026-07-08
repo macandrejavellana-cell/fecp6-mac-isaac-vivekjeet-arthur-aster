@@ -58,6 +58,9 @@ We learned that Git helps teams work on the same project in a more organized way
 ## 6. How would you improve your workflow next time?
 _(Think about technical habits and teamwork practices.)_
 
+In future projects, we would improve by committing changes more often, writing clearer commit messages, and checking for updates from the team regularly. This would help me work more smoothly and avoid bigger merge conflicts.
+
+
 ## 7. Optional: Any feedback on the activity?
 _(What worked well? What was confusing or could be improved?)_
 
