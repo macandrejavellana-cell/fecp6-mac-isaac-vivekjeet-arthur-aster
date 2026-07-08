@@ -3,6 +3,14 @@
 # This file ties together all components of the pseudo-shop
 # Feel free to modify this to simulate application flow
 
+import add_product from product_model
+import display_products from store_view
+
 # Run the app
 print "Welcome to the Pseudo Shop!"
 
+# Create some demo products
+add_product("Shirt", 22, 23, 24, 1.5, "Blue", "Generic")
+add_product("Pants", 25, 26, 26, "Dark Blue", "Generic")
+
+display_products()
