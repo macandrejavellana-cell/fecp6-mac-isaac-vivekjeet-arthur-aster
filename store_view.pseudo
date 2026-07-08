@@ -1,22 +1,36 @@
 # Displays product listings
 
-# Placeholder function:
+# Placeholder function
 # function display_products()
 
 import product_list from product_model
 
+# `filters` is a key-value pair data structure of the user's filtered attributes, e.g. { color: "red", brand: "Generic" }
+# `Product` is the product data model located in `product_model.pseudo`
 function display_products():
-	if length of product_list == 0 then
-		print "No products in the store"
-		return
-	
-	for each product in product_list:
-		print "Name: " + product.name
-		print "Brand: " + product.brand
-		print "Product Dimensions: "+ product.width + "x" + product.height + "x" + product.length
-		print "Weight: " + product.weight
-		print "Color: " + product.color
-		print ""
+    final_product_list = empty array
+
+    # Validate filters
+    for filter in filters:
+        filter_key = key of current filter
+        if filter_key not in Product attributes:
+            remove filter from filters
+
+    # Retrieve filtered products
+    final_product_list = filter_products(filters)
+
+    # Validate filtered products
+    for product in final_product_list:
+        if product is not valid instance of Product:
+            remove product from final_product_list
+
+    # Output final product list
+    for product in final_product_list:
+        print product.name
+        print product.price
+        for filter in filters:
+            filter_key = key of current filter
+            print product[filter_key]
 
 
 
