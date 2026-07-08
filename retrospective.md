@@ -65,3 +65,4 @@ In future projects, we would improve by committing changes more often, writing c
 ## 7. Optional: Any feedback on the activity?
 _(What worked well? What was confusing or could be improved?)_
 
+The activity was good because it allowed us to see how a collaborative environment works. What was confusing was more on the conventions like the naming convention for the fork, as well as commit message conventions.
