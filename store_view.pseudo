@@ -3,3 +3,17 @@
 # Placeholder function:
 # function display_products()
 
+import product_list from product_model
+
+function display_products():
+	if length of product_list == 0 then
+		print "No products in the store"
+		return
+	
+	for each product in product_list:
+		print "Name: " + product.name
+		print "Brand: " + product.brand
+		print "Product Dimensions: "+ product.width + "x" + product.height + "x" + product.length
+		print "Weight: " + product.weight
+		print "Color: " + product.color
+		print ""
