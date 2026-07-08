@@ -3,3 +3,35 @@
 # Placeholder function:
 # function display_products()
 
+
+
+
+# Handles storefront display and filtering logic
+
+# Filter products in product_list against a set of attribute filters
+# filters is a key-value structure, e.g. { color: "red", brand: "Generic" }
+function filter_products(filters):
+    filtered_list = []
+    for each product in product_list:
+        is_match = true
+        for each filter_key, filter_value in filters:
+            if product[filter_key] != filter_value:
+                is_match = false
+        if is_match == true:
+            filtered_list.add(product)
+    return filtered_list
+
+
+# Demonstrate filter_products() usage
+function demo_filter_products():
+    size_filters = { width: 10, height: 5 }
+    matched_products = filter_products(size_filters)
+    print "Products matching width=10, height=5:"
+    for each product in matched_products:
+        print product.name
+
+    attribute_filters = { color: "red", brand: "Generic" }
+    matched_products = filter_products(attribute_filters)
+    print "Products matching color=red, brand=Generic:"
+    for each product in matched_products:
+        print product.name
