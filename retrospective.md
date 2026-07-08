@@ -11,6 +11,16 @@
 ## 1. How did you divide the work between you and your partner?
 _(Who worked on which features? How was the work assigned or negotiated?)_
 
+- Mac Andre Javellana - Feature 1: Filter Products by Attributes
+- Jan Neal Isaac Villamin - Feature 2.1: User Registration and Login
+- Vivekjeet Singh Chambal - Feature 2.2: User Registration and Login
+- Arthur Jed Lluisma - Feature 4: Display Storefront
+- Aster Benedict Mangabat - Feature 3: Product Management
+
+
+We divided the features per person. Due to having more people than the number of features, we split 1 feature into 2, so everyone can have a feature they can work on.
+
+
 ## 2. What Git strategies or commands helped you most during the project?
 _(E.g., branching, rebasing, frequent commits, etc.)_
 
