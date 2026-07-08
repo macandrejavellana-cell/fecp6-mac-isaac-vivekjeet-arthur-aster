@@ -10,3 +10,6 @@ function display_products():
         filter_key = key of current filter
         if filter_key not in Product attributes:
             remove filter from filters
+    
+    # Retrieve filtered products
+    final_product_list = filter_products(filters)
