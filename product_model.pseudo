@@ -1,5 +1,15 @@
 # Handles product data
 
+# Product schema - defines all attributes needed for filtering
+class Product:
+    name
+    width
+    height
+    length
+    weight
+    color
+    brand
+
 # Sample structure:
 # product = {
 #     name: "Sample Product",
@@ -14,3 +24,15 @@
 # Placeholder product list
 product_list = []
 
+function add_product(name, width, height, length, weight, color, brand):
+	new_product = {
+		name: name,
+		width: width,
+		height: height,
+		length: length,
+		weight: weight,
+		color: color,
+		brand: brand
+	}
+
+	append new_product to product_list
