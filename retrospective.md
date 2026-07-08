@@ -24,6 +24,17 @@ We divided the features per person. Due to having more people than the number of
 ## 2. What Git strategies or commands helped you most during the project?
 _(E.g., branching, rebasing, frequent commits, etc.)_
 
+The following commands helped us the most during this project
+1. git merge -m "[message]"
+2. git checkout [branch-name]
+3. git log --oneline
+4. git branch
+5. git add
+6. git commit
+7. git push
+8. git pull
+
+
 ## 3. Describe a merge conflict you encountered. What caused it and how did you resolve it?
 _(Include any lessons learned or techniques used to resolve the issue.)_
 
