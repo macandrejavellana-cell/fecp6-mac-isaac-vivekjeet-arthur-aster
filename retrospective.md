@@ -47,6 +47,9 @@ Another merge conflict was when two separate members were working on user_contro
 ## 4. What were the biggest challenges you faced as a team?
 _(This can include communication, Git usage, or coordination.)_
 
+Our biggest challenges as a team centered around mastering collaborative Git workflows. Early on, we struggled with how to effectively slice features into smaller, manageable tasks, which also resulted in an error when multiple team members needed to build upon the same shared code, like our user_list component. To ensure we could handle these merge errors, we intentionally created and resolved merge conflicts. This hands-on exercise helped us to develop a deep, practical understanding of Git branches and gave us the confidence to safely merge concurrent streams of work without losing anyone's progress. Finally, we realized that technical coordination required clear documentation, so we focused heavily on standardizing our communication through descriptive commit messages.
+
+
 ## 5. What did you learn about using Git in a collaborative setting?
 _(Any insights or habits you’d apply in future projects?)_
 
