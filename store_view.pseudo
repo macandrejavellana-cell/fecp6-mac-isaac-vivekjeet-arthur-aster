@@ -13,3 +13,8 @@ function display_products():
     
     # Retrieve filtered products
     final_product_list = filter_products(filters)
+
+    # Validate filtered products
+    for product in final_product_list:
+        if product is not valid instance of Product:
+            remove product from final_product_list
