@@ -34,8 +34,14 @@ The following commands helped us the most during this project
 7. git push
 8. git pull
 
+
 ## 3. Describe a merge conflict you encountered. What caused it and how did you resolve it?
 _(Include any lessons learned or techniques used to resolve the issue.)_
+
+Our team encountered a merge conflict while integrating multiple feature branches into the main branch. Because these features required changes to the same files, the first branch merged successfully, but subsequent merges triggered merge conflicts due to overlapping lines of code. To resolve it, we communicated with each other to review the overlapping lines and determine the correct integration. Since it was a relatively straightforward project, our resolution strategy involved either combining the changes or retaining the most updated version of the functions. Once the conflicts were resolved locally, we had other team members review the code to ensure functionality before finalizing the merge.
+
+Another merge conflict was when two separate members were working on user_controller.pseudo. One was implementing create_user while the other was implementing login_user. The member working on create_user pushed the changes to their branch and merged with main after a reviewed PR. Then, the member working on login_user performed a fetch and merge to their computer, resulting in a merge conflict. To resolve this, the member working on login_user combined the two changes by placing the create_user part first, then the login_user part. Finally, a commit was made pushed to their branch, then a merge happened after a reviewed PR, resolving the conflict.
+
 
 ## 4. What were the biggest challenges you faced as a team?
 _(This can include communication, Git usage, or coordination.)_
