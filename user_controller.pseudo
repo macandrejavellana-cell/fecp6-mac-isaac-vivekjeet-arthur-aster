@@ -20,13 +20,13 @@ function create_user(name, email, password):
 
     # Check for empty values
     if clean_name is empty or clean_email is empty or password is empty:
-        return fail
+        return failure
 
     # Check if user already exists
     existing_user_id = get_id(clean_email)
     
     if existing_user_id is not null:
-        return fail
+        return failure
 
     # Assign an ID
     new_id = length(user_list) + 1
@@ -44,10 +44,10 @@ function create_user(name, email, password):
 # Function: Authenticate existing user using login credentials
 function login_user(email, password):
     if (email does not exist) or (password does not exist):
-        return fail
+        return failure
     
     for user in user_list:
         if user.email == email and user.password == password:
             return success
 
-    return fail
+    return failure
