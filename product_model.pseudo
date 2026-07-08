@@ -1,5 +1,15 @@
 # Handles product data
 
+# Product schema - defines all attributes needed for filtering
+class Product:
+    name
+    width
+    height
+    length
+    weight
+    color
+    brand
+
 # Sample structure:
 # product = {
 #     name: "Sample Product",
