@@ -3,10 +3,12 @@
 # Stores users available for authentication
 registered_users = []
 
-# Function: user login (for existing users only)
+# Function: Authenticate existing user using login credentials
 function login_user(email, password):
+    if (email does not exist) or (password does not exist):
+        return failure
     for user in registered_users:
-        if user.email == email:
+        if user.email == email and user.password == password:
             return success
 
     return failure
