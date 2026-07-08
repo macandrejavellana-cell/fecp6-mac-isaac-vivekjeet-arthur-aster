@@ -1,8 +1,12 @@
 # Final Project Retrospective
 
 ## Team Members
-- Student 1:
-- Student 2:
+- Student 1: Mac Andre Javellana
+- Student 2: Jan Neal Isaac Villamin
+- Student 3: Vivekjeet Singh Chambal
+- Student 4: Arthur Jed Lluisma
+- Student 5: Aster Benedict Mangabat
+
 
 ## 1. How did you divide the work between you and your partner?
 _(Who worked on which features? How was the work assigned or negotiated?)_
