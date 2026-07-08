@@ -53,6 +53,9 @@ Our biggest challenges as a team centered around mastering collaborative Git wor
 ## 5. What did you learn about using Git in a collaborative setting?
 _(Any insights or habits you’d apply in future projects?)_
 
+We learned that Git helps teams work on the same project in a more organized way. Each person can work on their own branch, and later the changes can be merged together. I also learned that teamwork and communication are important, especially when resolving conflicts. Besides this, we also learned how Git helps the team review the files being pushed to the main branch. Instead of asking the member which part of the file was edited, the reviewers can see directly which part did a member add or remove.
+
+
 ## 6. How would you improve your workflow next time?
 _(Think about technical habits and teamwork practices.)_
 
