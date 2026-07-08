@@ -10,7 +10,7 @@ function display_products():
         filter_key = key of current filter
         if filter_key not in Product attributes:
             remove filter from filters
-    
+
     # Retrieve filtered products
     final_product_list = filter_products(filters)
 
@@ -18,3 +18,11 @@ function display_products():
     for product in final_product_list:
         if product is not valid instance of Product:
             remove product from final_product_list
+
+    # Output final product list
+    for product in final_product_list:
+        print product.name
+        print product.price
+        for filter in filters:
+            filter_key = key of current filter
+            print product[filter_key]
