@@ -1,5 +1,12 @@
 # Displays product listings
 
-# Placeholder function:
-# function display_products()
+# `filters` is a key-value pair data structure of the user's filtered attributes, e.g. { color: "red", brand: "Generic" }
+# `Product` is the product data model located in `product_model.pseudo`
+function display_products():
+    final_product_list = empty array
 
+    # Validate filters
+    for filter in filters:
+        filter_key = key of current filter
+        if filter_key not in Product attributes:
+            remove filter from filters
