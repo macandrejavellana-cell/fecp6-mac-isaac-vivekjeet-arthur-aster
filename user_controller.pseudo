@@ -5,6 +5,15 @@ user_list = []
 
 # Placeholder function signatures:
 function create_user(name, email, password):
+    # Check for empty values
+    if name is empty or email is empty or password is empty:
+        return fail
+    
+    # Check if user already exists
+    for each user in user_list:
+        if user.email is same as email:
+            return fail
+
     new_user = new user record with:
         name = name
         email = email
